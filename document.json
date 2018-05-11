@@ -1,0 +1,22 @@
+{
+  "sites": [
+    {"siteTitle":"Amazon", "company":"https://www.amazon.com/gp/css/homepage.html","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Coursera", "company":"https://www.coursera.org/account/settings","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Delicious", "company":"https://delicious.com/settings/password","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Facebook", "company":"https://www.facebook.com/settings?tab=account&section=password&view","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Foursquare", "company":"https://foursquare.com/change_password","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"GitHub", "company":"https://github.com/settings/admin","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Google", "company":"https://accounts.google.com/b/0/EditPasswd?hl=en&continue=https://www.google.com/settings/security","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"HipChat", "company":"https://yourteam.hipchat.com/account/password","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Instagram", "company":"https://instagram.com/accounts/password/change/","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"LinkedIn", "company":"https://www.linkedin.com/settings/?trk=nav_account_sub_nav_settings","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Payoneer", "company":"https://myaccount.payoneer.com/MainPage/ChangePassword.aspx","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Pinterest", "company":"https://www.pinterest.com/settings/","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Pocket", "company":"https://getpocket.com/changepass","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Reddit", "company":"https://www.reddit.com/prefs/update/","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Slack", "company":"https://gromadco.slack.com/account/settings","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Twitter", "company":"https://twitter.com/settings/password","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Yahoo", "company":"https://edit.yahoo.com/config/eval_profile","siteIcon":"./icon/favicon-facebook.png"},
+    {"siteTitle":"Yandex", "company":"https://passport.yandex.ru/passport?mode=changepass","siteIcon":"./icon/favicon-facebook.png"}    
+  ]
+}
