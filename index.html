@@ -54,7 +54,7 @@
                                     </label>
                                  </div>
                                  <div class="block-delet">
-                                    <button v-on:click="sitesDelete.unshift({siteTitle: site.siteTitle, company: site.company, siteIcon: site.siteIcon}); sites.splice(index, 1)" class="button-delete">
+                                    <button v-on:click="deleteSite(site.siteTitle)" class="button-delete">
                                        <a href="#" class="close-button"></a>
                                     </button>
                                  </div>

@@ -40,6 +40,26 @@ new Vue({
         $.getJSON('document.json', function (json) {
             _this.sites = json.sites;
         });
+    },
+    methods: {
+        deleteSite: function (siteTitle) {
+            var i = this.sites.length,
+                    siteToRemove;
+            while(i--) {
+                if(this.sites[i].siteTitle == siteTitle) {
+                    siteToRemove = this.sites[i];
+                    break;
+                }
+            }
+            this.sites.splice(i, 1);
+            this.sitesDelete.unshift(
+                {
+                    siteTitle: siteToRemove.siteTitle,
+                    company: siteToRemove.company,
+                    siteIcon: siteToRemove.siteIcon
+                }
+            );
+        }
     }
 });
 
