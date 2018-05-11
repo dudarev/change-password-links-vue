@@ -52,13 +52,7 @@ new Vue({
                 }
             }
             this.sites.splice(i, 1);
-            this.sitesDelete.unshift(
-                {
-                    siteTitle: siteToRemove.siteTitle,
-                    company: siteToRemove.company,
-                    siteIcon: siteToRemove.siteIcon
-                }
-            );
+            this.sitesDelete.unshift(siteToRemove);
         }
     }
 });
